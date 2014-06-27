@@ -18,7 +18,7 @@ It's a proof-of-concept of demostration of how TDOA.  I randomly generate a loca
 
 ![alt tdoa_trials](http://www.ocf.berkeley.edu/~stevenli/programming_files/TDOA_20trials_1.jpg)
 
-It means I simulated 20 random locations and attempted to locate them with the TDOA Localization algorithm and plotted the actual position and the estimated position.  As you can tell, this algorithm really works.
+It means I simulated 20 random locations and attempted to locate them with the TDOA Localization algorithm and plotted the actual position and the estimated position.  As you can tell, this algorithm really works.  Note the scale on the x and y axis are in meters.
 
 
 #### Where is the sample.wav file?
