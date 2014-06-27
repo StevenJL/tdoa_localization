@@ -12,7 +12,7 @@ I wrote an [expository paper about it here](http://www.ocf.berkeley.edu/~stevenl
 
 #### What does your program do exactly?
 
-It's a proof-of-concept of demonstration of how TDOA.  I randomly generate a location inside a microphone array and simulate the signals recieved by these microphones adjusting for spherical attenuation and time delay of arrival.  This algorithm attempts to locate the source of the signal using the TDOA Localization technique described above.
+It's a proof-of-concept of demonstration of how TDOA works.  I randomly generate a location inside a microphone array and simulate the signals recieved by these microphones adjusting for spherical attenuation and time delay of arrival.  This algorithm attempts to locate the source of the signal using the TDOA Localization technique described above.
 
 #### What does this graph mean?
 
