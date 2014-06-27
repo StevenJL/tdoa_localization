@@ -1,14 +1,14 @@
 ## Time Delay of Arrival Localization
 
-## Background Info
+### Background Info
 
 I wrote this code when I was working as a signals processing researcher at SF State University.  I get an email once a while asking about this algorithm so I'm making a github repo with better documentation around it.  Please read this before emailing me.
 
-## FAQ
+### FAQ
 
 #### What is TDOA Localization?
 
-I wrote an expo paper about it here.
+I wrote an expository paper about it here.
 
 #### What is this program exactly?
 
@@ -16,6 +16,7 @@ It's a proof-of-concept of demostration of how TDOA.  I randomly generate a loca
 
 #### What does this graph mean?
 
+![alt tag]()
 
 It means I simulated 20 random locations and attempted to locate them with the TDOA Localization algorithm and plotted the actual position and the estimated position.  As you can tell, this algorithm really works.
 
