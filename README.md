@@ -6,22 +6,22 @@ I wrote this code when I was working as a signals processing researcher at SF St
 
 ### FAQ
 
-#### What is TDOA Localization?
+##### What is TDOA Localization?
 
-I wrote an expository paper about it here.
+I wrote an [expository paper about it here](http://www.ocf.berkeley.edu/~stevenli/programming_files/TDOA_Acoustic_Localization.pdf.pdf).
 
-#### What is this program exactly?
+##### What does your program do exactly?
 
 It's a proof-of-concept of demostration of how TDOA.  I randomly generate a location inside a microphone array and simulate the signals recieved by these microphones adjusting for spherical attenuation and time delay of arrival.  This algorithm attempts to locate the source of the signal using the TDOA Localization technique described above.
 
-#### What does this graph mean?
+##### What does this graph mean?
 
-![alt tag]()
+![alt tdoa_trials](http://www.ocf.berkeley.edu/~stevenli/programming_files/TDOA_20trials_1.jpg)
 
 It means I simulated 20 random locations and attempted to locate them with the TDOA Localization algorithm and plotted the actual position and the estimated position.  As you can tell, this algorithm really works.
 
 
-#### Where is the sample.wav file?
+##### Where is the sample.wav file?
 
 It can be any wav file that is mostly silence with a few bursts.  The best case is a recording of a gunshot (mostly silent with a big burst).  The worse case would be a recording of white noise throughout.
 
