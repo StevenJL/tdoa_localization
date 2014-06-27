@@ -2,7 +2,7 @@
 
 ## Background Info
 
-I wrote this code when I was working as a signals processing researcher at SF State University.  I get an email once a while asking about this algorithm so I'm making a github repo with better documentation around it.
+I wrote this code when I was working as a signals processing researcher at SF State University.  I get an email once a while asking about this algorithm so I'm making a github repo with better documentation around it.  Please read this before emailing me.
 
 ## FAQ
 
@@ -10,7 +10,18 @@ I wrote this code when I was working as a signals processing researcher at SF St
 
 I wrote an expo paper about it here.
 
+#### What is this program exactly?
+
+It's a proof-of-concept of demostration of how TDOA.  I randomly generate a location inside a microphone array and simulate the signals recieved by these microphones adjusting for spherical attenuation and time delay of arrival.  This algorithm attempts to locate the source of the signal using the TDOA Localization technique described above.
+
+#### What does this graph mean?
+
+
+It means I simulated 20 random locations and attempted to locate them with the TDOA Localization algorithm and plotted the actual position and the estimated position.  As you can tell, this algorithm really works.
+
+
 #### Where is the sample.wav file?
 
 It can be any wav file that is mostly silence with a few bursts.  The best case is a recording of a gunshot (mostly silent with a big burst).  The worse case would be a recording of white noise throughout.
 
+My sample.wav example consists of a crow going 'caw caw'.
