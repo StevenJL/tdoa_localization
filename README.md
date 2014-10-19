@@ -8,7 +8,7 @@ I wrote this code when I was working as a signals processing researcher at SF St
 
 #### What is TDOA Localization?
 
-I wrote an [expository paper about it here](http://www.ocf.berkeley.edu/~stevenli/programming_files/TDOA_Acoustic_Localization.pdf.pdf).
+I wrote an [expository paper about it here](https://s3-us-west-1.amazonaws.com/stevenjl-bucket/tdoa_localization.pdf).
 
 #### What does your program do exactly?
 
