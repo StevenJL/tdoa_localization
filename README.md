@@ -16,7 +16,7 @@ It's a proof-of-concept of demonstration of how TDOA works.  I randomly generate
 
 #### What does this graph mean?
 
-![alt tdoa_trials](http://www.ocf.berkeley.edu/~stevenli/programming_files/TDOA_20trials_1.jpg)
+![alt tdoa_trials](https://s3-us-west-1.amazonaws.com/stevenjl-bucket/TDOA_20trials.jpg)
 
 It means I simulated 20 random locations and attempted to locate them with the TDOA Localization algorithm and plotted the actual position and the estimated position.  As you can tell, this algorithm really works.  Note the scale on the x and y axis are in meters.
 
